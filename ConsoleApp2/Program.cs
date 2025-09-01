@@ -48,6 +48,13 @@ namespace ConsoleApp2
         }
         static void Ej1()
         { 
+            Console.WriteLine("Ingrese un numero1");
+            int numero1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese un numero2");
+            int numero2 = int.Parse(Console.ReadLine());
+            int suma = numero1 + numero2;
+            Console.WriteLine("La suma es: " + suma);
+            Console.ReadKey();
         }
         static void Ej2() { }
         static void Ej3() { }
